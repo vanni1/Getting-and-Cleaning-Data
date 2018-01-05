@@ -24,9 +24,11 @@ being a given base variable for a given time/frequency domain and direction for 
 1. subject 
 * indicates the person performing the experiment
 * is an integer between 1 and 30
+
 2. activity
 * indicates the activity
 * is a labeled integer (1 - WALKING, 2 - WALKING_UPSTAIRS,3 - WALKING_DOWNSTAIRS, 4 - SITTING, 5 - STANDING, 6 - LAYING)
+
 3. basevar
 * indicates the base variable
 * is one of : 
@@ -43,13 +45,17 @@ being a given base variable for a given time/frequency domain and direction for 
   * BodyGyroMag : magnitude of angular acceleration
   * GravityAcc : gravity
   * GravityAccMag : gravity magnitude 
+
 4. domain
 * denotes the time or frequency domain
-* is a labeled character (f=frequency;t=time)
+* is a labeled character (f=frequency;t=time) 
+
 5.axis
 * denotes the axial component of the 3 dimensional signal
 * can be either x,y or z (character denoting the euclidean axis) or empty (NA)
+
 6. mean
 * values normalized and bounded within [-1,1].
+
 7. standard deviation
 * values are normalized and bounded within [-1,1].
