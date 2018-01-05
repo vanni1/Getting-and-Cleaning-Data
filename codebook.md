@@ -29,22 +29,20 @@ being a given base variable for a given time/frequency domain and direction for 
 * is a labeled integer (1 - WALKING, 2 - WALKING_UPSTAIRS,3 - WALKING_DOWNSTAIRS, 4 - SITTING, 5 - STANDING, 6 - LAYING)
 3. basevar
 * indicates the base variable
-* is a string taking of the list : 
-** BodyAcc 	: body linear acceleration
-** BodyAccJerk  : body linear acceleration jerk
-** BodyAccJerkMag : magnitude of body linear acceleration jerk
-** BodyAccMag : magnitude of body linear acceleration
-** BodyBodyAccJerkMag --> should be BodyAccJerkMag
-** BodyBodyGyroJerkMag --> should be BodyGyroJerkMag
-** BodyBodyGyroMag --> should be BodyGyroMag
-
-** BodyGyro : angular acceleration
-** BodyGyroJerk  : angular acceleration jerk
-** BodyGyroJerkMag : magnitude of angular acceleration jerk
-** BodyGyroMag : magnitude of angular acceleration
-
-** GravityAcc : gravity
-** GravityAccMag : gravity magnitude 
+* is one of : 
+  * BodyAcc 	: body linear acceleration
+  * BodyAccJerk  : body linear acceleration jerk
+  * BodyAccJerkMag : magnitude of body linear acceleration jerk
+  * BodyAccMag : magnitude of body linear acceleration
+  * BodyBodyAccJerkMag --> should be BodyAccJerkMag
+  * BodyBodyGyroJerkMag --> should be BodyGyroJerkMag
+  * BodyBodyGyroMag --> should be BodyGyroMag
+  * BodyGyro : angular acceleration
+  * BodyGyroJerk  : angular acceleration jerk
+  * BodyGyroJerkMag : magnitude of angular acceleration jerk
+  * BodyGyroMag : magnitude of angular acceleration
+  * GravityAcc : gravity
+  * GravityAccMag : gravity magnitude 
 4. domain
 * denotes the time or frequency domain
 * is a labeled character (f=frequency;t=time)
