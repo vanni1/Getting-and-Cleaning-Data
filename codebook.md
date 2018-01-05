@@ -21,6 +21,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 is an aggregated dataset containing the mean of both the mean and standard deviation for each unit,
 being a given base variable for a given time/frequency domain and direction for a given subject performing a given activity.
 
+It consists of 7 variables and 5940 observations.
+
 1. subject 
 * indicates the person performing the experiment
 * is an integer between 1 and 30
